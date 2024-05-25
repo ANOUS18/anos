@@ -66,10 +66,10 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="𝐏𝐀𝐔𝐒𝐄", callback_data=f"ADMIN Pause|{chat_id}"),
             
         ],[
-            InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ", url=f"https://t.me/UJ_5Q"),
-            InlineKeyboardButton(text="𝐆𝐑𝐎𝐔𝐏", url=f"https://t.me/U7_4K"),
+            InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ", url=f"https://t.me/l2_2Y"),
+            InlineKeyboardButton(text="𝐆𝐑𝐎𝐔𝐏", url=f"https://t.me/jx_xll"),
         ],[
-            InlineKeyboardButton(text="˛𝑴𝑬𝑫𝑶 𓏺 𝑨𝑳𝑬𝑿 ᭡ٰ🇵🇸💤", url=f"https://t.me/ox_Q1"),
+            InlineKeyboardButton(text="𖥻 𝐔𝐑 , 𝐅𝐚𝐕 𝐀𝐛𝐃𝐎𝐨 -", url=f"https://t.me/EU_TM"),
         ],[
             InlineKeyboardButton(text="اضف البوت الي مجموعتك او قناتك⚡", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
@@ -84,10 +84,10 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="𝐏𝐀𝐔𝐒𝐄", callback_data=f"ADMIN Pause|{chat_id}"),
             
         ],[
-            InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ", url=f"https://t.me/UJ_5Q"),
-            InlineKeyboardButton(text="𝐆𝐑𝐎𝐔𝐏", url=f"https://t.me/U7_4K"),
+            InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ", url=f"https://t.me/l2_2Y"),
+            InlineKeyboardButton(text="𝐆𝐑𝐎𝐔𝐏", url=f"https://t.me/jx_xll"),
         ],[
-            InlineKeyboardButton(text="˛𝑴𝑬𝑫𝑶 𓏺 𝑨𝑳𝑬𝑿 ᭡ٰ🇵🇸💤", url=f"https://t.me/UJ_5Q"),
+            InlineKeyboardButton(text="𖥻 𝐔𝐑 , 𝐅𝐚𝐕 𝐀𝐛𝐃𝐎𝐨 -", url=f"https://t.me/jx_xr"),
         ],[
             InlineKeyboardButton(text="⚡اضف البوت الي مجموعتك او قناتك", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
