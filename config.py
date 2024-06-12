@@ -6,16 +6,16 @@ from pyrogram import filters
 from database import get_db_general_rtb
 from utils import get_restarted
 
-super_sudoers = [6456857472]
+super_sudoers = [5209139258]
 
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", 17154185))
-API_HASH = getenv("API_HASH", "7d24797dd1d72adbe8ee2596be2904d0")
+API_ID = int(getenv("API_ID", 22519921))
+API_HASH = getenv("API_HASH", "05209ff9998700c8b6c0138146757b0e")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7276137789:AAHRHY8d-kcDYFZVKyZDDT4YThG-rysqNQM")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://proceed58:proceed58@cluster0.p5s9ym5.mongodb.net/?retryWrites=true&w=majority")
@@ -26,7 +26,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 2000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6130127477))
+OWNER_ID = int(getenv("OWNER_ID", 5209139258))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -36,14 +36,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/me2wdo/meska.git",
+    "https://github.com/ANOUS18/anos",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/I1_35")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/qurqq")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -94,10 +94,10 @@ command = ["/"]
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/f7874d12d30a21c60c479.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/ea9d4db47ab45f556c8ce.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/f7874d12d30a21c60c479.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/ea9d4db47ab45f556c8ce.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/f7874d12d30a21c60c479.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/f7874d12d30a21c60c479.jpg"
